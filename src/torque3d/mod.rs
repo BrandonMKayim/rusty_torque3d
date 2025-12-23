@@ -8,12 +8,4 @@ pub struct TorqueEngine
     processor_manager: ProcessorType
 }
 
-impl TorqueEngine
-{
-    pub fn init() -> Self
-    {
-        TorqueEngine {  }
-    }
-}
-
 pub struct TorqueMemory;
