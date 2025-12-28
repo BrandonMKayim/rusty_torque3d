@@ -8,10 +8,29 @@ pub mod torque3d;
 
 use torque3d::*;
 
-macro_rules! t3d_registerClass {
-    () => {
+#[macro_export]
+macro_rules! t3d_register_class
+{
+    ($name:ident) =>
+    {
         
     };
 }
 
-// defaults
+#[macro_export]
+macro_rules! t3d_register_console_object
+{
+    () =>
+    {
+        
+    };
+}
+
+#[macro_export]
+macro_rules! t3d_register_callback
+{
+    () =>
+    {
+        
+    };
+}
